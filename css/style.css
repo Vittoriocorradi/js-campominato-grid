@@ -20,11 +20,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header h1 {
+    font-size: 3em;
+}
+
 /*
 --------
 COMMON
 --------
 */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /*
 --------
@@ -32,11 +42,42 @@ HEADER
 --------
 */
 
+header {
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.1875rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 4.6875rem;
+    margin-right: 2.1875rem;
+}
+
+header .btn {
+    background-color: #e9e9ed;
+    padding: .125rem 2.1875rem;
+    font-size: 1.2em;
+    border-radius: .4375rem;
+    border: .0625rem solid #9494a2;
+}
+
 /*
 --------
 MAIN
 --------
 */
+
+main {
+    background-color: aquamarine;
+    flex-grow: 1;
+}
 
 /*
 --------
@@ -44,4 +85,7 @@ FOOTER
 --------
 */
 
+footer {
+    background-color: brown;
+}
 
