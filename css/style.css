@@ -79,9 +79,15 @@ MAIN
 */
 
 main {
-    background-color: aquamarine;
+    background-color: #7fffd4;
     flex-grow: 1;
     padding: 8.125rem 0;
+}
+
+main .container {
+    height: 71.25rem;
+    width: 71.25rem;
+    margin: 0 auto;
 }
 
 /*
@@ -91,6 +97,6 @@ FOOTER
 */
 
 footer {
-    padding: 2.8125rem 2.5rem 2.5rem;
+    padding: 2.1875rem 1.875rem 1.875rem;
 }
 
