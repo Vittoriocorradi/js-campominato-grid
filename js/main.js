@@ -41,6 +41,7 @@ function() {
     for (let i = 1; i <= 100; i++) {
         const cellCreated = myCreateElement('div', 'cell', i);
         gameContainer.append(cellCreated);
+        elementClick(cellCreated, i, 'clicked');
     }
 }
 )
