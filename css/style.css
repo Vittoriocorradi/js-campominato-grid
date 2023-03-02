@@ -113,14 +113,29 @@ main .container {
 }
 
 .cell {
-    height: calc(100% / 10);
-    width: calc(100% / 10);
     border: .0625rem solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
 }
+
+.easy {
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
+
+.medium {
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.hard {
+    height: calc(100% / 7);
+    width: calc(100% / 7);
+}
+
+
 
 .clicked {
     background-color: #3399ff;

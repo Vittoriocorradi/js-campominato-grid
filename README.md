@@ -18,6 +18,12 @@ Creo una funzione elementClick che avrà per argomenti un elemento, un contatore
         Scrivo il contatore in console
         Aggiungo all'elemento una classe per cambiare il colore
 
+//Funzione bonus per selezionare la difficoltà
+Creo una funzione difficultyChoice che avrà per argomento un elemento
+
+    Creo una variabile cellNumber
+    Inizio uno switch che darà un valore a cellNumber a seconda della difficoltà inserita
+    Estrapolo cellNumber
 
 
 ESERCIZIO
@@ -26,6 +32,9 @@ Creo una variabile button per identificare il bottone che andrà a generare la g
 Creo una variabile container per identificare il .container dell'html
 
 Inizio un evento al click del bottone
+
+    Creo una variabile difficultySetting che avrà come valore il risultato di un input select
+    Creo una variabile CellNumber a cui attribuirò come valore il risultato estrapolato dalla funzione difficultyChoice con argomento difficultySetting
 
     Attribuisco vuoto a container così da ripulire la pagina al click del bottone
 
