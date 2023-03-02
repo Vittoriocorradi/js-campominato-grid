@@ -27,6 +27,8 @@ Creo una variabile container per identificare il .container dell'html
 
 Inizio un evento al click del bottone
 
+    Attribuisco vuoto a container così da ripulire la pagina al click del bottone
+
     Inizio un ciclo con i che va da 1 a 100 
         Creo un elemento usando la funzione myCreateElement
         Appendo l'elemento creato al container
