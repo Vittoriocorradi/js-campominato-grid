@@ -118,6 +118,7 @@ main .container {
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .easy {
@@ -150,5 +151,39 @@ FOOTER
 
 footer {
     padding: 2.1875rem 1.875rem 1.875rem;
+    background-color: #171a21;
+    color: #fff;
+}
+
+footer i {
+    color: #ad0e0e;
+}
+
+/*
+--------
+EFFETTI
+--------
+*/
+
+header .btn:hover {
+    background-color: #1e90ff;
+    color: #fff;
+    box-shadow: 0 1px 5px 1px #000;
+    cursor: pointer;
+}
+
+header select:hover {
+    cursor: pointer;
+}
+
+.cell:hover {
+    cursor: pointer;
+    /* box-shadow: inset 0 0 5px 1px #000; */
+    box-shadow: 0 0 5px 1px #000;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: #fff;
 }
 
